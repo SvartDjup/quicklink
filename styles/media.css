@@ -174,7 +174,16 @@
     }
 
     .container.footer .footer-column {
-        max-width: 352px;
+        max-width: 335px;
+    }
+}
+@media (max-width: 603px) {
+    .container .actions {
+        flex-wrap: wrap;
+    }
+
+    .container .prices {
+        flex-wrap: wrap;
     }
 }
 
@@ -225,9 +234,7 @@
         background-size: contain;
     }
 
-    .container .actions {
-        flex-wrap: wrap;
-    }
+
 
 
     .container .screens .jobs-wrapper {
@@ -341,9 +348,7 @@
         max-width: 3px;
     }
 
-    .container .prices {
-        flex-wrap: wrap;
-    }
+
 
 
 }
