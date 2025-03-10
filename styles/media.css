@@ -1,0 +1,349 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 728px;
+    }
+
+    .header .container.nav .left-nav .menu {
+        display: none;
+    }
+
+    .header .container.nav .right-nav {
+        padding: 12px 20px;
+        background: rgba(118, 117, 123, 1);
+    }
+
+    .header .container.nav .right-nav .login-button {
+        display: none;
+    }
+
+    .header .container.nav .right-nav .burger-menu .burger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        border: none;
+        background: rgba(118, 117, 123, 1);
+        width: 16px;
+        height: 16px;
+
+    }
+
+    .header .container.nav .right-nav .burger-menu .burger::before {
+        content: '';
+        left: 0;
+        position: absolute;
+        display: block;
+        margin: 5px 1px;
+        width: 14px;
+        height: 2px;
+        border-radius: 10px;
+        background: white;
+    }
+
+    .header .container.nav .right-nav .burger-menu .burger::before {
+        top: 0;
+        box-shadow: 0 6px 0 white;
+        transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    }
+
+
+
+    .container .hero-wrapper::after {
+        opacity: 20%;
+    }
+
+    .container .features {
+        flex-wrap: wrap;
+    }
+
+    .container .screens .jobs-wrapper {
+        margin: 0 36px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper {
+        padding: 13px 13px 4px 13px;
+        max-width: 392px;
+        border-radius: 17px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .title {
+        font-size: 12.94px;
+        line-height: 14.01px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list {
+        margin: 17px 0 0 0;
+        gap: 15px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company {
+        font-size: 12.94px;
+        line-height: 15.09px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company .period,
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company .company-link,
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company .position {
+        font-size: 9.7px;
+        line-height: 14.01px;
+    }
+
+    .container .screens .jobs-wrapper .card {
+        max-width: 158px;
+        border-radius: 15px;
+        padding: 15px 15px 13px 15px;
+        font-size: 8.49px;
+        line-height: 12.26px;
+    }
+
+    .container .screens .jobs-wrapper .card .project-photo img {
+        max-width: 128px;
+    }
+
+    .container .screens .jobs-wrapper .card .project {
+        margin: 11px 0 0 0;
+    }
+
+    .container .screens .jobs-wrapper .card .project .project-name {
+        font-size: 19.81px;
+        line-height: 25.47px;
+    }
+
+    .container .screens .jobs-wrapper .card .project .project-link a {
+        font-size: 8.49px;
+        line-height: 11.6px;
+        gap: 4px;
+        border-radius: 8px;
+        padding: 6px 8px;
+
+    }
+
+    .container .screens .jobs-wrapper .card .project .project-link a img {
+        max-width: 11px;
+    }
+
+    .container .screens  .profile {
+        top: 53px;
+        padding: 21px 52px;
+        max-width: 473px;
+        border-radius: 17px;
+    }
+
+    .container .screens  .profile .photo img {
+        max-width: 131px;
+    }
+
+    .container .screens  .profile .short-description {
+        max-width: 180px;
+        gap: 7px;
+    }
+
+    .container .screens  .profile .short-description .name {
+        font-size: 22.35px;
+        line-height: 24.58px;
+    }
+
+    .container .screens  .profile .short-description .description {
+        font-size: 7.89px;
+        line-height: 9.2px;
+    }
+
+    .container .screens  .profile .short-description .write-action {
+        margin: 14px 0 0 0;
+        gap: 2px;
+        padding: 6px 4px;
+        border-radius: 6px;
+        max-width: 76px;
+        font-size: 5.92px;
+        line-height: 8.08px;
+    }
+
+    .container .screens  .profile .short-description .write-action span {
+        max-width: 56px;
+    }
+
+    .container .screens  .profile .short-description .write-action img {
+        max-width: 8px;
+    }
+
+    .container .prices .price-wrapper .price-description-wrapper {
+        max-height: unset;
+    }
+
+    .container.footer {
+        flex-wrap: wrap;
+    }
+
+    .container.footer .footer-column {
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 458px) {
+    .container {
+        max-width: 418px;
+    }
+
+    [popover] {
+        max-width: 418px;
+    }
+
+
+    .container .hero-wrapper::after {
+        content: "";
+        background: url("../images/hero-icon.svg") no-repeat;
+        max-width: 257px;
+        width: 100%;
+        max-height: 237px;
+        height: 100%;
+        background-size: contain;
+    }
+
+    .container .hero-wrapper .hero-description {
+        max-width: 335px;
+    }
+
+    .container .hero-wrapper .hero-description::after {
+        max-width: 34px;
+        max-height: 30px;
+        top: 0;
+        right: 36px;
+        background-size: contain;
+    }
+
+    .container .hero-wrapper .hero-description .title {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 54px;
+
+
+    }
+
+    .container .hero-wrapper .hero-description .description::before {
+        left: 0;
+        max-width: 100px;
+        max-height: 20px;
+        background-size: contain;
+    }
+
+    .container .actions {
+        flex-wrap: wrap;
+    }
+
+
+    .container .screens .jobs-wrapper {
+        margin: 0 16px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper {
+        padding: 6px 6px 1px 6px;
+        max-width: 182px;
+        border-radius: 8px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .title {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list {
+        margin: 8px 0 0 0;
+        gap: 7px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company {
+        font-size: 6px;
+        line-height: 7px;
+    }
+
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company .period,
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company .company-link,
+    .container .screens .jobs-wrapper .company-list-wrapper .company-list .company .position {
+        font-size: 4.51px;
+        line-height: 6.52px;
+    }
+
+    .container .screens .jobs-wrapper .card {
+        max-width: 74px;
+        border-radius: 7px;
+        padding: 7px;
+        font-size: 4px;
+        line-height: 6px;
+    }
+
+    .container .screens .jobs-wrapper .card .project {
+        margin: 5px 0 0 0;
+    }
+
+    .container .screens .jobs-wrapper .card .project-photo img {
+        max-width: 59px;
+    }
+
+    .container .screens .jobs-wrapper .card .project .project-name {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .container .screens .jobs-wrapper .card .project .project-link a {
+        font-size: 4px;
+        line-height: 5px;
+        gap: 2px;
+        border-radius: 4px;
+        padding: 3px 4px;
+
+    }
+
+    .container .screens .jobs-wrapper .card .project .project-link a img {
+        max-width: 5px;
+    }
+
+    .container .screens  .profile {
+        top: 25px;
+        padding: 10px 24px;
+        max-width: 220px;
+        border-radius: 8px;
+        border: 1px solid rgba(51, 51, 51, 1);
+    }
+
+    .container .screens  .profile .photo img {
+        max-width: 61px;
+    }
+
+    .container .screens  .profile .short-description {
+        max-width: 84px;
+        gap: 3px;
+    }
+
+    .container .screens  .profile .short-description .name {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .container .screens  .profile .short-description .description {
+        font-size: 3px;
+        line-height: 4px;
+    }
+
+    .container .screens  .profile .short-description .write-action {
+        margin: 7px 0 0 0;
+        gap: 1px;
+        padding: 3px 2px;
+        border-radius: 3px;
+        max-width: 35px;
+        font-size: 3px;
+        line-height: 4px;
+    }
+
+    .container .screens  .profile .short-description .write-action span {
+        max-width: 26px;
+    }
+
+    .container .screens  .profile .short-description .write-action img {
+        max-width: 3px;
+    }
+
+    .container .prices {
+        flex-wrap: wrap;
+    }
+
+
+}
